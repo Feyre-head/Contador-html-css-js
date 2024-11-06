@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Contador</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=M+PLUS+1+Code:wght@100..700&family=Poiret+One&family=Silkscreen:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <h2>Contador</h2>
+    </header>
+    <main>
+        <div class="container">
+            <p id="esquerda">
+                <label for="inicio">Inicio</label>
+                <input type="number" name="inicio" id="inicio">
+
+                <label for="fim">Fim</label>
+                <input type="number" name="fim" id="fim">
+
+                <label for="passo">Passo</label>
+                <input type="number" name="passo" id="passo">
+        
+            <div id="direita"><button type="submit" onclick="contador()">CONTAR</button>
+            <div id="msg"></div>
+            </div>
+            
+                </main>
+        </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
